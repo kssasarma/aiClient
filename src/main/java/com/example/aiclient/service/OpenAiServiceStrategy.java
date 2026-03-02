@@ -1,12 +1,12 @@
 package com.example.aiclient.service;
 
+import java.util.List;
+
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.messages.SystemMessage;
 import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class OpenAiServiceStrategy implements LlmServiceStrategy {
